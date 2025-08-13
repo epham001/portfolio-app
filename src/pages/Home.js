@@ -3,9 +3,6 @@ import React from 'react';
 import { styled } from '@mui/material/styles';
 import { Container, Box, Typography, Avatar, createTheme, ThemeProvider, Grid, Paper, Link, Icon } from '@mui/material';
 import useMediaQuery from '@mui/material/useMediaQuery';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import IconButton from '@mui/material/IconButton';
 import { useNavigate } from 'react-router-dom';
 
 //imports for card
@@ -13,21 +10,6 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import CardActionArea from '@mui/material/CardActionArea';
-
-// const theme = createTheme({
-//     palette: {
-//         mode: 'dark',
-//         background: {
-//             default: '#121212', // Dark gray background
-//         },
-//         text: {
-//             primary: '#E0E0E0',
-//         },
-//     },
-//     typography: {
-//         fontFamily: '"Roboto", sans-serif',
-//     },
-// });
 
 const StyledStrong = styled('strong')(({ theme }) => ({
     color: '#FFFFFF',

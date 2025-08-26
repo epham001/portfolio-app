@@ -130,7 +130,7 @@ function Home() {
                                 />
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="div">
-                                        Cinema E-booking Site
+                                        Cinema E-booking
                                     </Typography>
                                     <Typography variant="body2" sx={{ color: 'text.secondary' }}>
                                         Aug 2023 — Dec 2023 | Class Project

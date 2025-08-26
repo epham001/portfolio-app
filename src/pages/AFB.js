@@ -1,4 +1,3 @@
-// src/Home.js
 import React from 'react';
 import { styled } from '@mui/material/styles';
 import { Container, Box, Typography, createTheme, Link, } from '@mui/material';

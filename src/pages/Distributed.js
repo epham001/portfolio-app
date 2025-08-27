@@ -24,7 +24,7 @@ function Distributed() {
           underline="hover"
           color="inherit"
         >
-          Distributed
+          Distributed Systems
         </Link>
 
       </Breadcrumbs>

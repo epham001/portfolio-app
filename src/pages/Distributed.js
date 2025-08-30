@@ -33,7 +33,7 @@ function Distributed() {
         At the University of Georgia, I took a course on Distributed Computing Systems, which are defined as collections of independent 
         computers that work together as a unified system. This class introduced me to foundational concepts in concurrency, synchronization, 
         and distributed design. Here are some core topics I learned:
-        <ul>
+        <ul className="list-disc pl-10 m-0">
           <li>Multi-threaded programming - writing programs that execute across multiple threads for better performance</li>
           <li>Synchronization Tools – semaphores and mutexes to safely share resources between threads</li>
           <li>WebSocket Programming – enabling real-time communication between clients and servers</li>

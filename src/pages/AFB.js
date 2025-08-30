@@ -52,7 +52,7 @@ function AFB() {
         using Material UI, a widely used component library. The largest feature I worked on was the metrics dashboard page.
         This page provided visualizations of sprint progress, implemented using the Ant Design
         Charts library. Some key features include:
-        <ul>
+        <ul className="list-disc pl-10 m-0">
           <li>burn-up and burn-down charts (Ant Design Charts)</li>
           <li>Added selectors for navigating through project → board → sprint</li>
           <li>Implemented date range filters for time-based chart views</li>
@@ -100,7 +100,7 @@ function AFB() {
 
       <Typography sx={{ marginBottom: 4 }}>
         Example supported modules include:  
-        <ul>
+        <ul className="list-disc pl-10 m-0">
           <li>Prometheus – Open-source monitoring system that collects metrics from services and infrastructure</li>
           <li>Istio – A service mesh that provides traffic management, security, and observability for microservices</li>
           <li>Kiali – A visualization tool for Istio that helps monitor service mesh configurations and traffic flow</li>

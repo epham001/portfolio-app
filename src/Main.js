@@ -1,8 +1,9 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import { createTheme, ThemeProvider, Box} from '@mui/material';
+import { createTheme, ThemeProvider as MuiThemeProvider, Box } from '@mui/material';
 import Header from './Header';
 import Footer from './Footer';
+import { ThemeProvider as TWThemeProvider } from "@material-tailwind/react";
 
 const theme = createTheme({
     palette: {
@@ -21,15 +22,17 @@ const theme = createTheme({
 
 const MainLayout = () => {
     return (
-        <ThemeProvider theme={theme}>
-            <Box sx={{ minHeight: '100vh', bgcolor: 'background.default', color: 'text.primary' }}>
-                <Header />
-                <main>
-                    <Outlet /> {/* This is where child route components will render */}
-                </main>
-                <Footer />
-            </Box>
-        </ThemeProvider>
+        <MuiThemeProvider theme={theme}>
+            <TWThemeProvider>
+                <Box sx={{ minHeight: '100vh', bgcolor: 'background.default', color: 'text.primary' }}>
+                    <Header />
+                    <main>
+                        <Outlet /> {/* This is where child route components will render */}
+                    </main>
+                    <Footer />
+                </Box>
+            </TWThemeProvider>
+        </MuiThemeProvider>
     );
 };
 

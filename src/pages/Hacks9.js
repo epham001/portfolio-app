@@ -39,7 +39,7 @@ function Hacks9() {
       </Box>
       <Typography variant="h5" gutterBottom>UGA Hacks 9</Typography>
       <Typography sx={{ marginBottom: 4 }}>
-        UGA Hacks 9 is a student-run hackathon hosted by the Association for Computing Machinery (ACM), a club for all things 
+        UGA Hacks is a student-run hackathon hosted by the Association for Computing Machinery (ACM), a club for all things 
         compter science related at the University of Georgia. The two-day event brings together students for workshops, activities, 
         and, of course, the main hackathon, where teams build a project in less than 48 hours. There are many categories 
         you can win prizes in, and they have different prizes funded by different sponsors. The sponsors for this year were State Farm, 
@@ -53,7 +53,7 @@ function Hacks9() {
         free trial plan. I taught myself about controls, hitboxes, animation, and some basic Unity built-in Unity tools. Since we 
         were on a time crunch, our team set out to create a minimum viable product for a simple game. In order to have something 
         playable by the deadline we set these requirements: 
-        <ul>
+        <ul className="list-disc pl-10 m-0">
           <li>One verses one, two players sharing a keyboard</li>
           <li>At least one attack per character</li>
           <li>A single main platform</li>
@@ -88,7 +88,9 @@ function Hacks9() {
         After a sleepless weekend, we finished and submitted our project on time. The result was a fun, working 2D fighting game 
         that we were proud to demo to the judges and other participants. Beyond the technical lessons, this project taught me how 
         to scope, prioritize, and collaborate under tight deadlines, while also sparking my interest in game development. Check out 
-        Byte Fight on <Link underline="hover" onClick={() => { window.open("https://devpost.com/software/byte-fight") }}>Devpost</Link>.
+        Byte Fight on <Link underline="hover" onClick={() => { window.open("https://devpost.com/software/byte-fight") }}>Devpost</Link>. 
+        Here you can view a demo video of our project and the other hackers that worked on this project. Please check them out, I could not
+        have done this alone. 
       </Typography>
 
     </Container>

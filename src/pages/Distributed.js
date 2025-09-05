@@ -71,8 +71,9 @@ function Distributed() {
       </Box>
 
       <Typography sx={{ marginBottom: 4 }}>
-        Overall, this course gave me a strong foundation in both the theory and practice of distributed systems. It taught me how to coordinate threads, safely 
-        manage shared resources, and design systems that remain reliable under concurrency and scale.
+        Overall, this course gave me a strong foundation in both the theory and practice of distributed systems. It taught me just how difficult it can be to 
+        manage threads, and shared resources. And while I don't see myself doing multi-threaded programming often, it is important I understand how it works if
+        I ever come across it again. After all distributed systems are found everywhere.
       </Typography>
 
     </Container>

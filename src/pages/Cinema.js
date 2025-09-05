@@ -23,7 +23,7 @@ function Cinema() {
           underline="hover"
           color="inherit"
         >
-          Cinema
+          Cinema E-Booking
         </Link>
 
       </Breadcrumbs>

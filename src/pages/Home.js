@@ -213,30 +213,6 @@ function Home() {
                     </Grid>
                     <Grid size={{ xs: 12, sm: 8, md: 4 }}>
                         <Card>
-                            <CardActionArea onClick={() => { navigate('/uga-hacks7') }}>
-                                <CardMedia
-                                    component="img"
-                                    image="ugahacks7.jpg"
-                                    alt="ugahacks7.jpg"
-                                    sx={{
-                                        width: '100%',
-                                        height: 200,
-                                        objectFit: 'cover',
-                                    }}
-                                />
-                                <CardContent>
-                                    <Typography gutterBottom variant="h5" component="div">
-                                        UGA Hacks 7
-                                    </Typography>
-                                    <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                                        Feb 2022 | Hackathon
-                                    </Typography>
-                                </CardContent>
-                            </CardActionArea>
-                        </Card>
-                    </Grid>
-                    <Grid size={{ xs: 12, sm: 8, md: 4 }}>
-                        <Card>
                             <CardActionArea onClick={() => { navigate('/snake') }}>
                                 <CardMedia
                                     component="img"
@@ -254,6 +230,30 @@ function Home() {
                                     </Typography>
                                     <Typography variant="body2" sx={{ color: 'text.secondary' }}>
                                         May 2022 | Personal Project
+                                    </Typography>
+                                </CardContent>
+                            </CardActionArea>
+                        </Card>
+                    </Grid>
+                    <Grid size={{ xs: 12, sm: 8, md: 4 }}>
+                        <Card>
+                            <CardActionArea onClick={() => { navigate('/uga-hacks7') }}>
+                                <CardMedia
+                                    component="img"
+                                    image="ugahacks7.jpg"
+                                    alt="ugahacks7.jpg"
+                                    sx={{
+                                        width: '100%',
+                                        height: 200,
+                                        objectFit: 'cover',
+                                    }}
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant="h5" component="div">
+                                        UGA Hacks 7
+                                    </Typography>
+                                    <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                                        Feb 2022 | Hackathon
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>

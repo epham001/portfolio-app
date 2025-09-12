@@ -30,7 +30,7 @@ function Tuition() {
 
       <Typography variant="h5" gutterBottom>Database Management Systems</Typography>
       <Typography sx={{ marginBottom: 4 }}>
-        During my time at UGA, I took a class on Database Management Systems that provided a deep dive into how databases function under
+        During my time at UGA, I took a class on Database Management Systems that provided me in depth how databases function under
         the hood. We covered relational and non-relational databases, relational logic and algebra, SQL queries, hashing and key storage,
         concurrency (read/write locks), and normalization. Beyond the theory, the class emphasized applying this knowledge through a
         term project.

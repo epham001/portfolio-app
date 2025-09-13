@@ -86,7 +86,7 @@ function Discord() {
 
       <Typography sx={{ marginBottom: 4 }}>
         I named my bot BMO after my favorite silly robot cartoon character. This ended up being one of my favorite projects. While it didn’t 
-        introduce any useful, new frameworks or tools, but it reinforced so many 
+        introduce any useful, new frameworks or tools, it reinforced so many 
         fundamentals of computer science: Reading and navigating Java documentation, object-oriented programming, working with multiple APIs,
         deployment and learning about hosting services, and most importantly feedback. The end result was a fun, working trivia game that my 
         friends could enjoy. Seeing people actually use something I built (and even laugh at the occasional hidden bug) was incredibly rewarding. 

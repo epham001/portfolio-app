@@ -18,6 +18,16 @@ const theme = createTheme({
     typography: {
         fontFamily: '"Roboto", sans-serif',
     },
+    breakpoints: {
+    values: {
+      xs: 0,
+      sm: 600,
+      md: 750, // new breakpoint
+      custom: 900,
+      lg: 1200,
+      xl: 1536,
+    },
+  },
 });
 
 const MainLayout = () => {

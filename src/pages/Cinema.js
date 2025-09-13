@@ -119,67 +119,67 @@ function Cinema() {
           <img
             src="register.png"
             alt="register"
-            className="h-[300px] lg:h-[600px] w-full object-cover object-center"
+            className="h-[300px] lg:h-[500px] w-full object-cover object-center"
           />
           <img
             src="account_info.png"
             alt="account_info"
-            className="h-[300px] lg:h-[600px] w-full object-cover object-center"
+            className="h-[300px] lg:h-[500px] w-full object-cover object-center"
           />
           <img
             src="account_info2.png"
             alt="account_info2"
-            className="h-[300px] lg:h-[600px] w-full object-cover object-center"
+            className="h-[300px] lg:h-[500px] w-full object-cover object-center"
           />
           <img
             src="account_info3.png"
             alt="account_info3"
-            className="h-[300px] lg:h-[600px] w-full object-cover object-top"
+            className="h-[300px] lg:h-[500px] w-full object-cover object-top"
           />
           <img
             src="account_info4.png"
             alt="account_info4"
-            className="h-[300px] lg:h-[600px] w-full object-cover object-center"
+            className="h-[300px] lg:h-[500px] w-full object-cover object-center"
           />
           <img
             src="add_movie.png"
             alt="add_movie"
-            className="h-[300px] lg:h-[600px] w-full object-cover object-left"
+            className="h-[300px] lg:h-[500px] w-full object-cover object-left"
           />
           <img
             src="admin.png"
             alt="admin"
-            className="h-[300px] lg:h-[600px] w-full object-cover object-left"
+            className="h-[300px] lg:h-[500px] w-full object-cover object-left"
           />
           <img
             src="checkout.png"
             alt="checkout"
-            className="h-[300px] lg:h-[600px] w-full object-cover object-left"
+            className="h-[300px] lg:h-[500px] w-full object-cover object-left"
           />
           <img
             src="create_account.png"
             alt="create_account"
-            className="h-[300px] lg:h-[600px] w-full object-cover object-top"
+            className="h-[300px] lg:h-[500px] w-full object-cover object-top"
           />
           <img
             src="create_account4.png"
             alt="create_account4"
-            className="h-[300px] lg:h-[600px] w-full object-cover object-center"
+            className="h-[300px] lg:h-[500px] w-full object-cover object-center"
           />
           <img
             src="order_history.jpg"
             alt="order_history"
-            className="h-[300px] lg:h-[600px] w-full object-cover object-left"
+            className="h-[300px] lg:h-[500px] w-full object-cover object-left"
           />
           <img
             src="save_card.png"
             alt="save_card"
-            className="h-[300px] lg:h-[600px] w-full object-cover object-center"
+            className="h-[300px] lg:h-[500px] w-full object-cover object-center"
           />
           <img
             src="save_card2.png"
             alt="save_card2"
-            className="h-[300px] lg:h-[600px] w-full object-cover object-center"
+            className="h-[300px] lg:h-[500px] w-full object-cover object-center"
           />
         </Carousel>
       </Box>

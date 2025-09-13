@@ -22,7 +22,7 @@ function Home() {
 
     return (
 
-        <Container maxWidth='md' sx={{ py: 5 }}>
+        <Container maxWidth='custom' sx={{ py: 5 }}>
             <Typography variant="h5" gutterBottom>About Me</Typography>
             <Typography sx={{ marginBottom: 8 }}>
                 Hi, I’m <StyledStrong>Ethan Pham</StyledStrong> — a recent graduate with a Bachelor of Science in Computer Science from the University of Georgia <br /><br />
@@ -109,7 +109,7 @@ function Home() {
                                         UGA Hacks 9
                                     </Typography>
                                     <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                                        Feb 2024 | Hackathon
+                                        Feb 2024 | Hackathon <br /> &nbsp;  
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>

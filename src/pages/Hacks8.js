@@ -87,9 +87,6 @@ function Hacks8() {
 
     </Container>
 
-
-
-
   );
 }
 

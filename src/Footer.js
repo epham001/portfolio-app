@@ -10,7 +10,8 @@ function Footer() {
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            padding: 4,
+            paddingTop: 4,
+            paddingBottom: 4,
             borderTop: '1px solid #333',
         }}>
             <Container maxWidth='md' >

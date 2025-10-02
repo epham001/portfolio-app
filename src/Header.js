@@ -14,8 +14,8 @@ function Header() {
             }}
         >
             <Avatar
-                alt="profile.JPG"
-                src="/profile.JPG" // Replace with your image path
+                alt="profile_pic,jpg"
+                src={`${process.env.PUBLIC_URL}/profile_pic.jpg`} 
                 sx={{ width: 100, height: 100, marginRight: 3 }}
             />
             <Box>

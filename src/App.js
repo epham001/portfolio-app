@@ -28,7 +28,7 @@ const Wrapper = ({ children }) => {
 function App() {
 
   return (
-    <Router>
+    <Router basename='/portfolio-app'>
       <Wrapper>
         <Routes>
           <Route element={<MainLayout />}>

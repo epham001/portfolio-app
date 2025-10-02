@@ -48,8 +48,8 @@ function Home() {
                             <CardActionArea onClick={() => { navigate('/402nd-sweg') }}>
                                 <CardMedia
                                     component="img"
-                                    image="robinsAFB.JPG"
-                                    alt="robinsAFB.JPG"
+                                    image={`${process.env.PUBLIC_URL}/robinsAFB2.jpg`}
+                                    alt="robinsAFB2.jpg"
                                     sx={{
                                         width: '100%',
                                         height: 200,
@@ -72,7 +72,7 @@ function Home() {
                             <CardActionArea onClick={() => { navigate('/distributed-systems') }}>
                                 <CardMedia
                                     component="img"
-                                    image="uga.png"
+                                    image={`${process.env.PUBLIC_URL}/uga.png`}
                                     alt="uga.png"
                                     sx={{
                                         width: '100%',
@@ -96,7 +96,7 @@ function Home() {
                             <CardActionArea onClick={() => { navigate('/uga-hacks9') }}>
                                 <CardMedia
                                     component="img"
-                                    image="ugahacks9.jpg"
+                                    image={`${process.env.PUBLIC_URL}/ugahacks9.jpg`}
                                     alt="ugahacks9.jpg"
                                     sx={{
                                         width: '100%',
@@ -120,7 +120,7 @@ function Home() {
                             <CardActionArea onClick={() => { navigate('/cinema-e-booking-site') }}>
                                 <CardMedia
                                     component="img"
-                                    image="register.png"
+                                    image={`${process.env.PUBLIC_URL}/register.png`}
                                     alt="register.png"
                                     sx={{
                                         width: '100%',       // Optional: match card width
@@ -144,7 +144,7 @@ function Home() {
                             <CardActionArea onClick={() => { navigate('/ryanllc') }}>
                                 <CardMedia
                                     component="img"
-                                    image="ryanllc.jpg"
+                                    image={`${process.env.PUBLIC_URL}/ryanllc.jpg`}
                                     alt="ryanllc.jpg"
                                     sx={{
                                         width: '100%',       // Optional: match card width
@@ -168,7 +168,7 @@ function Home() {
                             <CardActionArea onClick={() => { navigate('/uga-hacks8') }}>
                                 <CardMedia
                                     component="img"
-                                    image="ugahacks8.png"
+                                    image={`${process.env.PUBLIC_URL}/ugahacks8.png`}
                                     alt="ugahacks8.png"
                                     sx={{
                                         width: '100%',       // Optional: match card width
@@ -192,7 +192,7 @@ function Home() {
                             <CardActionArea onClick={() => { navigate('/tuition-data-viewer') }}>
                                 <CardMedia
                                     component="img"
-                                    image="tuition_data_viewer_early.png"
+                                    image={`${process.env.PUBLIC_URL}/tuition_data_viewer_early.png`}
                                     alt="tuition_data_viewer_early.png"
                                     sx={{
                                         width: '100%',
@@ -216,7 +216,7 @@ function Home() {
                             <CardActionArea onClick={() => { navigate('/snake') }}>
                                 <CardMedia
                                     component="img"
-                                    image="snake.png"
+                                    image={`${process.env.PUBLIC_URL}/snake.png`}
                                     alt="snake.png"
                                     sx={{
                                         width: '100%',
@@ -240,7 +240,7 @@ function Home() {
                             <CardActionArea onClick={() => { navigate('/uga-hacks7') }}>
                                 <CardMedia
                                     component="img"
-                                    image="ugahacks7.jpg"
+                                    image={`${process.env.PUBLIC_URL}/ugahacks7.jpg`}
                                     alt="ugahacks7.jpg"
                                     sx={{
                                         width: '100%',
@@ -264,7 +264,7 @@ function Home() {
                             <CardActionArea onClick={() => { navigate('/discord-bot') }}>
                                 <CardMedia
                                     component="img"
-                                    image="discord.jpg"
+                                    image={`${process.env.PUBLIC_URL}/discord.jpg`}
                                     alt="discord.jpg"
                                     sx={{
                                         width: '100%',
@@ -288,7 +288,7 @@ function Home() {
                             <CardActionArea onClick={() => { navigate('/chess') }}>
                                 <CardMedia
                                     component="img"
-                                    image="chess.png"
+                                    image={`${process.env.PUBLIC_URL}/chess.png`}
                                     alt="chess.png"
                                     sx={{
                                         width: '100%',

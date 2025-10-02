@@ -35,7 +35,7 @@ function AFB() {
       </Typography>
 
       <Box sx={{ marginBottom: 8 }}>
-        <img src='robinsAFB.jpg' style={{
+        <img src='robinsAFB2.jpg' style={{
           width: '100%',
           height: 'auto',
           display: 'block',

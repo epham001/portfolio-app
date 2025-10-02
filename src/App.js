@@ -28,7 +28,7 @@ const Wrapper = ({ children }) => {
 function App() {
 
   return (
-    <Router basename='/portfolio-app'>
+    <Router basename={process.env.PUBLIC_URL}>
       <Wrapper>
         <Routes>
           <Route element={<MainLayout />}>
